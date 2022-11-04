@@ -12,21 +12,21 @@
 
 ## Overview
 
-The purpose of this analysis was to use data from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist) to provide a report and visualization of currently traded cryptocurrencies that can be grouped together to create a new classification system. This report would be used to help **Accountability Accounting** offer a new investment portfolio in the exciting world of cryptocurrency to its customers. 
+In this project the purpose of this analysis was to use data provided to provide a report and visualization of currently traded cryptocurrencies which  can be grouped together in order to create a new classification system. This report would then be used by **Accountability Accounting** to offer a new investment portfolio in the exciting world of cryptocurrency to its teeming customers. 
 
-Since the data does not have any known outcome, we needed to preprocess it to fit an unsupervised `Machine Learning` model that will enable us to run a clustering algorithm that will allow us to group the cryptocurrencies.
+We are using the data that has no known outcome, then, we needed to preprocess it to fit unsupervised `Machine Learning` model which will help us to run a clustering algorithm that will enable us to group the cryptocurrencies.
 
-In this analysis we learned and applied:
+For this challenge we applied:
 
-* **Data Preprocessing** (Selection, Transformation, Scaling) - the process of helping to prepare data for `Machine Learning` Algorithms.
-* **Elbow Curve** - method to determine the best number of clusters needed for the algorithm to group the objects by.
-* **Principal Component Analysis (`PCA`)** - statistical technique to speed up machine learning algorithms when the number of features is too high.
-* **Clustering Algorithms (`KMeans`)** - the process of grouping similar objects/data points into clusters.
-* **Visualization (`hvPlot`, `Plotly`)** - graphic libraries that allows us to create 2D and 3D graphs such as, scatter plots.
+* **Data Preprocessing** (Selection, Transformation, Scaling) - refers to the process of helping to prepare data for `Machine Learning` Algorithms.
+* **Elbow Curve** - this is a method to determine the best number of clusters needed for the algorithm to group the objects by.
+* **Principal Component Analysis (`PCA`)** - is a statistical technique to speed up machine learning algorithms when the number of features is too high.
+* **Clustering Algorithms (`KMeans`)** - is the process of grouping similar objects/data points into clusters.
+* **Visualization (`hvPlot`, `Plotly`)** - these are graphic libraries that allows us to create 2D and 3D graphs such as, scatter plots for visualization.
 
 ## Results
 
-The original dataset contained 1,252 entries, however only 1,144 cryptocurrencies were currently trading. The data was further munged to remove `null values` and only leave cryptocurrencies that had a total number of mined coins greater than 0. The final results identified 532 tradable cryptocurrencies. 
+The original dataset used contained 1,252 entries, however, only 1,144 cryptocurrencies were traded. The data was further manipulated to remove `null values` and to produce cryptocurrencies that had a total number of mined coins greater than 0. Eventually, the results identified 532 tradable cryptocurrencies. 
 
 ![cryptotable](https://github.com/Adpetfem83/Crytocurrencies_Analysis/blob/main/Images/Tradable%20Currencies.png)
 
