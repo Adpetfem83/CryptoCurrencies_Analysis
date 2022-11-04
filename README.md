@@ -1,7 +1,6 @@
-# Crytocurrencies_Analysis-1
-
 
 # Cryptocurrencies
+
 ### An analysis using unsupervised Machine Learning algorithm to discover unknown patterns.
 
 ## Resources
