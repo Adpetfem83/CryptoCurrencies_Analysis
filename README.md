@@ -4,7 +4,12 @@
 # Cryptocurrencies
 ### An analysis using unsupervised Machine Learning algorithm to discover unknown patterns.
 
-![bannerimage](https://github.com/Adpetfem83/Crytocurrencies_Analysis-1/blob/main/Images/Human_Image.png)
+## Resources
+* Dataset from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist)
+* Software: Python 3.7.9, Anaconda 4.9.2 and Jupyter Notebooks 6.1.4
+* Libraries: `Scikit-learn`, `Plotly`, `hvPlot`, `Pandas`
+
+![bannerimage](https://github.com/Adpetfem83/Crytocurrencies_Analysis/blob/main/Images/Human_Image.png)
 
 ## Overview
 
@@ -24,17 +29,16 @@ In this analysis we learned and applied:
 
 The original dataset contained 1,252 entries, however only 1,144 cryptocurrencies were currently trading. The data was further munged to remove `null values` and only leave cryptocurrencies that had a total number of mined coins greater than 0. The final results identified 532 tradable cryptocurrencies. 
 
-![cryptotable](https://github.com/amylio/Cryptocurrencies/blob/main/Resources/Images/CryptoTable.png)
+![cryptotable](https://github.com/Adpetfem83/Crytocurrencies_Analysis/blob/main/Images/Tradable%20Currencies.png)
 
 The **Elbow Curve** method showed the slope at 4. This is the number of clusters that was used for the `KMeans` algorithm.
 
-![Elbow](https://github.com/amylio/Cryptocurrencies/blob/main/Resources/Images/ElbowCurve.png)
+![Elbow](https://github.com/Adpetfem83/Crytocurrencies_Analysis/blob/main/Images/Elbow_Curve.png)
 
 The clusters are plotted in a 3D scatter plot for visualization.
 
-![3D](https://github.com/amylio/Cryptocurrencies/blob/main/Resources/Images/3DGraph.png)
+![3DScatter](https://github.com/Adpetfem83/Crytocurrencies_Analysis/blob/main/Images/3D_Scatter_with_PCA.png)
 
-## Resources
-* Dataset from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist)
-* Software: Python 3.7.9, Anaconda 4.9.2 and Jupyter Notebooks 6.1.4
-* Libraries: `Scikit-learn`, `Plotly`, `hvPlot`, `Pandas`
+![hvplot Scatter](https://github.com/Adpetfem83/Crytocurrencies_Analysis/blob/main/Images/hvplot.scatter.png)
+
+
