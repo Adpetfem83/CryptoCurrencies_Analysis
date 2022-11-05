@@ -39,7 +39,7 @@ For this challenge we applied:
 
 
 
-### Results
+###  Results
 
 The original dataset used contained 1,252 entries, however, only 1,144 cryptocurrencies were traded. The data was further manipulated to remove `null values` and to produce cryptocurrencies that had a total number of mined coins greater than 0. Eventually, the results identified 532 tradable cryptocurrencies. 
 
